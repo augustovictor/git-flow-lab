@@ -45,6 +45,10 @@ Command | Description
 - The tests are ran on the `release branch`;
     - Release branches born from the `develop branch`;
     - Any bugs found on the `release branch` must be fixed ON the `release branch` and once everything is working fine it must be merged back to the develop;
+    - REMEMBER WHEN CHECKING OUT TO DEVELOP:
+        - FIRST: `git pull`
+        - `git merge <branch-to-be-merged-into-develop>`
+        - `git push`
 
 ## Best practices
 - Name a branch like: `<issue-id>-<issue-brief-description>`
