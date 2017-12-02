@@ -16,7 +16,7 @@ Command | Description
 `git flow feature  start <feat-number>-<feat-description>` | Create a new feature branch and checkout to it
 `git flow <subcommand> publish <branch-name-without-prefix/>` | Publish the branch
 `git flow <subcommand> <branch-name-without-prefix>` | Clone and track remote branch
-`git flow finish <branch-name>` | Merge current branch to develop and delete local and remote branch
+`git flow finish <branch-name-without-prefix>` | Merge current branch to develop and delete local and remote branch
 
 
 ## Workflow
