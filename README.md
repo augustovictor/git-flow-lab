@@ -9,14 +9,15 @@
 ## Commands
 Command | Description
 --------|------------
+`git init` | Initialize git for current directory
+`git branch -d <branch-name>` | Delete branch
 `git flow` | Show available `git flow` subcommands
 `git flow <subcommand>` | List available subcommands
-`git init` | Initialize git for current directory
 `git flow init` | Initialize `git flow` for current repository
 `git flow feature  start <feat-number>-<feat-description>` | Create a new feature branch and checkout to it
 `git flow <subcommand> publish <branch-name-without-prefix/>` | Publish the branch
 `git flow <subcommand> <branch-name-without-prefix>` | Clone and track remote branch
-`git flow finish <branch-name-without-prefix>` | Merge current branch to develop and delete local and remote branch
+`git flow <subcommand> finish <branch-name-without-prefix>` | Merge current branch to develop and delete local and remote branch
 
 
 ## Workflow
