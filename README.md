@@ -17,7 +17,7 @@ Command | Description
 `git flow init` | Initialize `git flow` for current repository
 `git flow feature start <feat-number>-<feat-description>` | Create a new feature branch and checkout to it
 `git flow <subcommand> publish <branch-name-without-prefix/>` | Publish the branch
-`git flow <subcommand> <branch-name-without-prefix>` | Clone and track remote branch
+`git flow track <branch-name-without-prefix>` | Clone and track remote branch
 `git flow <subcommand> finish <branch-name-without-prefix>` | Merge current branch to develop and delete local and remote branch
 `git flow release start <release-name>` | Create a release branch
 
@@ -38,6 +38,7 @@ Command | Description
     - `git flow release start sprint1-release`
 - Publish the `release branch`
     - `git flow release publish sprint1-release`
+- QA tests...
 
 ## Observations
 - When checking out to another branch that is remote only, remember to use `git flow track` command to do so. Otherwise you would be only clonning the branch instead of clonning and tracking.
